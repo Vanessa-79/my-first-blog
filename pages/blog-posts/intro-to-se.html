@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Introduction to Software Engineering</title>
+    <link rel="stylesheet" href="/styles/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <style>
+        body {
+
+            background-color: #cde0f5;
+            padding-top: 50px;
+
+        }
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: #057cfb;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .card {
+            border: black;
+            transition: all 0.5s ease;
+            background: #dcebfa;
+
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-title {
+            color: #000000;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div w3-include-html="/includes/navbar.html"></div>
+    <!-- main content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>Introduction to Software Engineering</h1>
+                <p>Eager to share my software engineering adventure! This post dives into the first two weeks, exploring
+                    what I've
+                    learned and the challenges I've faced. Join me as I embark on this exciting journey!</p>
+                <div class="row row-cols-1 row-cols-md-2 g-4" style="background: white; border-radius: 20px; margin-top: 10px; box-shadow: 10px 10px 5px #aaaaaa;
+            ">
+                    <div class="col">
+                        <div class="card">
+                            <img src="/images/network.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">How the Internet works</h5>
+                                <p class="card-text">Internet is a global network of interconnected computers that
+                                    communicate with
+                                    each other using standardized protocols. I learnt that the IP addresses and servers
+                                    are the
+                                    things someone must know in internet. That is, each device has a unique address
+                                    allowing
+                                    information packets to travel and be delivered to a correct destination. Protocols
+                                    ensure that
+                                    the packets are sent and received properly and different layers handle specific
+                                    tasks. what also
+                                    stood out for me is, Wifi was invented in 1997, then in 2019, 5G was introduced </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="/images/version-control.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Introduction to version control</h5>
+                                <p class="card-text">Version control is the process of tracking changes to project files
+                                    over time.
+                                    It allows multiple people to collaborate on the same project without overwriting
+                                    each other's
+                                    work. Version control is commonly used in software development to manage source
+                                    code.Git is one
+                                    of the most widely used version control systems known. This is because it allows
+                                    easy
+                                    collaboration among developers working remotly. Versino control also helps someone
+                                    to revert to
+                                    previous version in case something goes wrong with the code during development. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="/images/html2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Introduction to Html</h5>
+                                <p class="card-text">Html stands for HyperText Markup Language. It provides the
+                                    structure and
+                                    organisation to the content that can be displayed on the screen. It is the standard
+                                    language
+                                    used to create and design web pages.It consists of differnt elements that are
+                                    represented by
+                                    tags enclosed in angle brackets with opening and closing tags. These elements tell
+                                    the browser
+                                    to display the content forexample, title, form, image, paragraph. HTML doesn't
+                                    directly add
+                                    visual style but it forms the foundation upon which websites are built hence
+                                    allowing us to
+                                    create basic structure and content before adding stylings.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="/images/css.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Introduction to CSS</h5>
+                                <p class="card-text">CSS stands for Cascading Style Sheets. It is the language
+                                    responsible for
+                                    adding style and defining the visual presentation of web pages. It works hand in
+                                    hand with HTML
+                                    to structure and style content, allowing designers to control the
+                                    layout,colors,fonts and other
+                                    aspects of a website.It controls the layout of multiple web pages all at once.
+                                    In CSS, each declaration ends with a semi colon(;), CSS includes, external css,
+                                    internal css and
+                                    inline css. What stood out for me is, when styling an id selector, write a hash(#)
+                                    then put the
+                                    id name,when styling the class selector, write a period(.) then put the class name
+                                    you want to
+                                    style.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="/images/git1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Git and GitHub</h5>
+                                <p class="card-text">Git is a distributed version control system designed to track
+                                    changes in source
+                                    code during software development. It allows developers to collaborate on projects
+                                    efficiently
+                                    and maintain history of changes. It also allows us to revisit our previous versions.
+                                    There are
+                                    different commands that can be used forexample, gitint that creates and initializes
+                                    the
+                                    repository, git commit -m that saves the changes. I also learnt how to connect git
+                                    repository to
+                                    cloud, pushing, pulling and also creating sub branches and merging branches.
+
+                                    Github is a popular web-based platform built around Git. It serves as a centralized
+                                    hub for
+                                    developers to share their code, contribute to open-source projects and collaborate
+                                    with others
+                                    in the development community.<br> </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="/images/bootstrap.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Introduction to Bootstrap</h5>
+                                <p class="card-text">Bootstrap is a pre-built toolbox containing ready-made components,
+                                    saving you
+                                    time and effort in coding everything from scratch. It is a popular and powerful
+                                    front-end
+                                    framework built on top of HTML, CSS, and JavaScript. It provides a collection of
+                                    pre-designed
+                                    and customizable components like buttons,forms,navigation bars and more. Its grid
+                                    system and
+                                    responsive design utilities enable developers to create layouts that adapt
+                                    seamlessly to various
+                                    screen sizes and devices, ensuring a consistent user experience across desktops,
+                                    tablets, and
+                                    smartphones. With Bootstrap, developers can streamline their workflow, save time on
+                                    design and
+                                    development, and focus more on building robust and visually appealing web solutions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- sidebar -->
+        <div class="col-md-4" style="position: fixed; top: 0; right: 0; margin-bottom: 80px;" >
+            <div style="top: 10rem;">
+        
+                <div class="p-4 mb-3 mt-10 bg-light rounded">
+                    <h4 class="fst-italic" style="padding: 50px; text-align: center; margin-top: 30px;" >About</h4>
+                    <p class="mb-0">This program delves into Stephen Covey's timeless principles, the 7 Habits of Highly
+                        Effective People.</p>
+                    <p>Through these habits, you'll discover a roadmap to:</p>
+                    <p><ul>
+                        <li>Proactive living: Take control and shape your destiny.</li>
+                        <li>Focus on what matters most: Prioritize effectively and achieve your goals.</li>
+                        <li>Build strong relationships: Foster trust and collaboration.</li>
+                        <li>Think Win-Win: Create mutually beneficial solutions.</li>
+                        <li>Sharpen the saw: Continuously learn and grow.</li>
+                    </ul>
+                    </p>
+                    <p>The first three habits (1, 2, 3) are under the private Victory and then the rest are Public victory
+                        (relating with other people).</p>
+                </div>
+        
+                <!-- categories -->
+                <div class="p-4">
+                    <h4 class="fst-italic">Blog posts</h4>
+                    <ol class="list-unstyled mb-0">
+                        <li><a href="/pages/blog-posts/intro-to-se.html">Introduction to Software Engineering</a></li>
+                        <li><a href="/pages/blog-posts/leader.html">Leadership and personal Development</a></li>
+                    </ol>
+                </div>
+        
+                <div class="p-4">
+                    <h4 class="fst-italic">Social links</h4>
+                    <ol class="list-unstyled mb-0">
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Linkedin</a></li>
+                        <li><a href="#">Github</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        
+        <!-- comment sections -->
+        <div class="col-md-4" style=" top: 0; right: 0; margin-top: 200px;">
+            <div style="top: 2rem;">
+        
+                <section style=" width: 500px; height: 600px; margin-bottom: 70px;">
+                    <div class="container my-5 py-5">
+                        <div class="row d-flex">
+                            <div class="col-md-12 col-lg-10">
+                                <div class="card text-dark">
+                                    <div class="card-body p-4">
+                                        <h4 class="mb-0">Recent comments</h4>
+                                        <p class="fw-light mb-4 pb-2">Latest Comments section by users</p>
+        
+                                        <div class="d-flex flex-start">
+                                            <img class="rounded-circle shadow-1-strong me-3"
+                                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(23).webp"
+                                                alt="avatar" width="60" height="60" />
+                                            <div>
+                                                <h6 class="fw-bold mb-1">Vanessa</h6>
+                                                <div class="d-flex align-items-center mb-3">
+                                                    <p class="mb-0">
+                                                        March 01, 2024
+                                                        <span class="badge bg-primary">Pending</span>
+                                                    </p>
+                                                    <a href="#!" class="link-muted"><i
+                                                            class="fas fa-pencil-alt ms-2"></i></a>
+                                                    <a href="#!" class="link-muted"><i
+                                                            class="fas fa-redo-alt ms-2"></i></a>
+                                                    <a href="#!" class="link-muted"><i
+                                                            class="fas fa-heart ms-2"></i></a>
+                                                </div>
+                                                <p class="mb-0">
+                                                    Wow😍😍
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex flex-start">
+                                            <img class="rounded-circle shadow-1-strong me-3"
+                                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(23).webp"
+                                                alt="avatar" width="60" height="60" />
+                                            <div>
+                                                <h6 class="fw-bold mb-1">Janet</h6>
+                                                <div class="d-flex align-items-center mb-3">
+                                                    <p class="mb-0">
+                                                        February 27, 2023
+                                                        <span class="badge bg-primary">Pending</span>
+                                                    </p>
+                                                    <a href="#!" class="link-muted"><i
+                                                            class="fas fa-pencil-alt ms-2"></i></a>
+                                                    <a href="#!" class="link-muted"><i
+                                                            class="fas fa-redo-alt ms-2"></i></a>
+                                                    <a href="#!" class="link-muted"><i
+                                                            class="fas fa-heart ms-2"></i></a>
+                                                </div>
+                                                <p class="mb-0">
+                                                    You are determined👍
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex flex-start">
+                                            <img class="rounded-circle shadow-1-strong me-3"
+                                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(23).webp"
+                                                alt="avatar" width="60" height="60" />
+                                            <div>
+                                                    <a href="#!" class="link-muted"><i
+                                                            class="fas fa-pencil-alt ms-2"></i></a>
+                                                    <a href="#!" class="link-muted"><i
+                                                            class="fas fa-redo-alt ms-2"></i></a>
+                                                    <a href="#!" class="link-muted"><i
+                                                            class="fas fa-heart ms-2"></i></a>
+                                                </div>
+                                                <p class="mb-0">
+                                                    Keep moving!
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex flex-start">
+                                            <img class="rounded-circle shadow-1-strong me-3"
+                                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(23).webp"
+                                                alt="avatar" width="60" height="60" />
+                                            <div>
+                                                <h6 class="fw-bold mb-1">Joan</h6>
+                                                <div class="d-flex align-items-center mb-3">
+                                                    <p class="mb-0">
+                                                        March 01, 2024
+                                                        <span class="badge bg-primary">Pending</span>
+                                                    </p>
+                                                    <a href="#!" class="link-muted"><i
+                                                            class="fas fa-pencil-alt ms-2"></i></a>
+                                                    <a href="#!" class="link-muted"><i
+                                                            class="fas fa-redo-alt ms-2"></i></a>
+                                                    <a href="#!" class="link-muted"><i
+                                                            class="fas fa-heart ms-2"></i></a>
+                                                </div>
+                                                <p class="mb-0">
+                                                    Woman in Tech❤️
+                                                </p>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End recent comments section -->  
+                                    </div>
+                                    <hr class="my-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+        
+            </div>
+        </div>
+        
+
+
+    <footer class="bg-dark text-center text-white py-4">
+        <div class="footer">
+            <p>&copy; 2024 My Blog. All Rights Reserved.</p>
+            <p>Follow me:</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="/styles/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="/js/includes.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+
+.form{
+    background-color:  #e8eff7;
+    margin: auto;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 100px;
+    padding-left: 50px;
+    width: 600px;
+    border-radius: 30px;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.p-2.p-md-5 {
+    padding-right: 2rem; 
+}
+
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(52, 51, 51);
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin: 10px;
+} */
+
+.footer {
+    padding: 40px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer h5 {
+    color: #C6DCBA;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    color: #C6DCBA;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #C6DCBA;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #C6DCBA;
+}
+
+.footer .list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.footer hr {
+    border-color: rgba(255, 255, 255, 0.1);
+    margin: 20px 0;
+}
+
+.footer .list-inline-item {
+    margin-right: 10px;
+}
+
+.footer .text-center {
+    color: #C6DCBA;
+}
+
+.footer .bg-dark {
+    background-color: #333;
+}
+
+.footer .bg-dark h5 {
+  color: #fff;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.form-group textarea {
+    height: 100px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.column {
+    width: 48%;
+}
